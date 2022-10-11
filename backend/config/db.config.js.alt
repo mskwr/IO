@@ -1,0 +1,22 @@
+module.exports = {
+  development: {
+    knexparam: {
+      client: 'sqlite3',
+      connection: {
+        filename: './dev.sqlite3',
+      }
+    }
+  },
+
+  production: {
+    knexparam: {
+      client: 'oracledb',
+      connection: {
+        host: 'labora.mimuw.edu.pl',
+        user: 'ms418426',
+        password: 'Qwerty123',
+        database: 'LABS',
+      }
+    }
+  }
+};

@@ -1,0 +1,38 @@
+.login_box {
+    width: 500px;
+    padding: 10px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 2em;
+    text-align: center;
+    list-style-type: none;
+    font-size: x-large;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.login_box form {
+    height: 100%;
+}
+
+.login_box form div {
+    flex-direction: row;
+    display: flex;
+    height: 40px;
+    max-height: 10%;
+}
+
+.login_box form div label {
+    flex: 30%;
+    padding-right: 0.5em;
+}
+
+.login_box form div input {
+    flex: 60%;
+    max-width: 70%;
+}
+
+.login_box form div button {
+    margin: auto;
+}

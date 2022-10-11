@@ -1,0 +1,17 @@
+.account_box {
+    width: 500px;
+    padding: 10px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 2em;
+    text-align: center;
+    list-style-type: none;
+    font-size: x-large;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+button.logout_button {
+    float: right;
+}

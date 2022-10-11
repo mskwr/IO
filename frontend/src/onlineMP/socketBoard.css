@@ -1,0 +1,14 @@
+.socket-board {
+    padding-top: 10px;
+    margin: auto;
+    width: 600px;
+    max-width: 100%;
+}
+
+.socket-board code.shaded {
+    background-color: rgba(0, 102, 0, 0.12);
+    border: 1px solid rgba(0, 102, 0, 0.36);
+    padding: 0.4em;
+    border-radius: 0.2em;
+    color: rgba(0, 51, 0, 0.85);
+}

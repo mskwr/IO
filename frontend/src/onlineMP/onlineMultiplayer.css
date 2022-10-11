@@ -1,0 +1,47 @@
+.onlineMP {
+    width: 500px;
+    padding: 10px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 2em;
+    text-align: center;
+    list-style-type: none;
+    font-size: x-large;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.onlineMP form {
+    margin-top: 1em;
+}
+
+/* Best we've got for referring to Form.Groups */
+.onlineMP form div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+.onlineMP form label {
+    flex: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: .5rem;
+}
+
+.onlineMP form input {
+    flex: 60%;
+    max-width: 100%;
+}
+
+.onlineMP form button {
+    margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+    .onlineMP form label {
+        flex: 50%;
+    }
+}

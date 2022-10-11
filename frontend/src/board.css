@@ -1,0 +1,73 @@
+.square {
+    all: unset;
+    cursor: pointer;
+    width: 12.5%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.square:active {
+    box-shadow: inset 0px 2px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+.whiteSquare {
+    background-color: #f4f4f4;
+    color: pink;
+}
+
+.blackSquare {
+    background-color: #6a9960;
+    color: pink;
+}
+
+.row {
+    height: 12.5%;
+    margin: 0%;
+}
+
+/* Apply board position-related styling here.*/
+.board-square-outer {
+    width: 600px;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+/* This part enforces the aspect ratio using its parent's width! */
+.board-square-inner {
+    position: relative;
+    height: 0;
+    padding-bottom: 100%; /* relative to parent's width, I don't know why but thank God */
+}
+
+/* Put internal board styling here.*/
+.board {
+    position: absolute;
+    height: 100%;
+    background-color: aqua;
+}
+
+.piece {
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    margin: 0;
+    color: aqua;
+}
+
+.targeted {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.redPlayer {
+    color: red;
+}
+.blackPlayer {
+    color: black;
+}
+.playerIcon {
+    width: 200px;
+    max-width: 50%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
